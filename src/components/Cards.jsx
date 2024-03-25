@@ -83,7 +83,7 @@ export const Cards = () => {
                                     <img src="/question.png" alt="icon"/>
                                 </div>
                                 <div className={`back ${include?'flip-back':''}`}>
-                                    <img src={include?item.split('|')[1]:'/question.png'} alt="icon" />
+                                    <img src={item.split('|')[1]} alt="icon" />
                                 </div>
                             </div>
                         </li>
